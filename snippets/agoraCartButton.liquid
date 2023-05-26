@@ -1,0 +1,153 @@
+{% assign agora = product.metafields.global %}
+{% assign globals = shop.metafields.global %}
+<script src = "//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js" type = "text/javascript"></script>
+<script>
+  if ("{{ agora.defaultAmazonUrl }}") {
+    //0. Localise Amazon URL
+    var target = {
+      amazonUrl: "{{ product.metafields.global['defaultAmazonUrl'] }}",
+      affiliateId: "{{ shop.metafields.global['affiliateId'] }}"
+    };
+    jQuery.ajax({
+      url: "//freegeoip.app/json/",
+      type: "GET",
+      dataType: "jsonp",
+      error: function () {
+        target = writeTarget('');
+      },
+      success: function (location) {
+        switch (location.country_code.toLowerCase()) {
+        case "au":
+          target = writeTarget('country_com.au');
+          break;
+        case "br":
+          target = writeTarget('country_com.br');
+          break;
+        case "ca":
+          target = writeTarget('country_ca');
+          break;
+        case "cn":
+          target = writeTarget('country_cn');
+          break;
+        case "fr":
+          target = writeTarget('country_fr');
+          break;
+        case "de":
+          target = writeTarget('country_de');
+          break;
+        case "in":
+          target = writeTarget('country_in');
+          break;
+        case "it":
+          target = writeTarget('country_it');
+          break;
+        case "jp":
+          target = writeTarget('country_co.jp');
+          break;
+        case "mx":
+          target = writeTarget('country_com.mx');
+          break;
+        case "nl":
+          target = writeTarget('country_nl');
+          break;
+        case "pl":
+          target = writeTarget('country_pl');
+          break;
+        case "sg":
+          target = writeTarget('country_sg');
+          break;
+        case "es":
+          target = writeTarget('country_es');
+          break;
+        case "tr":
+          target = writeTarget('country_com.tr');
+          break;
+        case "ae":
+          target = writeTarget('country_ae');
+          break;
+        case "uk":
+          target = writeTarget('country_co.uk');
+          break;
+        case "us":
+          target = writeTarget('country_com');
+          break;
+        default:
+          target = writeTarget('');
+          break;
+        }
+      }
+    });
+
+    function writeTarget(metafieldName) {
+      let productMetafields = {{product.metafields.global | json}};
+      let storeMetafields = {{shop.metafields.global | json}};
+      if (productMetafields[metafieldName]) {
+        return {
+          amazonUrl: productMetafields[metafieldName],
+          affiliateId: storeMetafields[metafieldName]
+        };
+      } else {
+        return {
+          amazonUrl: "{{ product.metafields.global['defaultAmazonUrl'] }}",
+          affiliateId: "{{ shop.metafields.global['affiliateId'] }}"
+        };
+      }
+    }
+  
+    //1a. Delete old button
+    var OldAddToCartButton = undefined; 
+    var atcButtonList = [document.getElementById("add-to-cart"), document.getElementById("product-add-to-cart"), document.querySelector("#grid-product-form--{{ product.id }} > button")];
+
+    //Handling scenario where a different lanuage is currently selected by the user
+    if(document.querySelector("form[action='/cart/add']") === null){
+      atcButtonList.push(document.querySelector("form[action='/{{ request.locale.iso_code }}/cart/add']").querySelector("[type='submit']"));
+    }
+    else {
+      atcButtonList.push(document.querySelector("form[action='/cart/add']").querySelector("[type='submit']"));
+    }
+    
+    //For non-Dawn themes, the query selector will return null as it doesn't exist, which will break this code
+    if(document.querySelector("[class='product-form__buttons']") !== null){
+      atcButtonList.push(document.querySelector("[class='product-form__buttons']").querySelector("[type='submit']"))
+    }
+    
+    for (let buttonFound of atcButtonList) {
+      if ((buttonFound !== undefined) && (buttonFound !== null) && (buttonFound !== "")) {
+        OldAddToCartButton = buttonFound;
+        break;
+      } else {
+        continue;
+      }
+    }
+
+    var parent = OldAddToCartButton.parentNode; //Retrieving parent node of the button we want to get rid of
+    parent.removeChild(OldAddToCartButton); //doing the deed
+                         
+    //1b. And for good measure, let's delete the Shopify dynamic payment button
+    var shopifypaymentbutton = document.getElementsByClassName("shopify-payment-button");
+    while (shopifypaymentbutton.length > 0) {
+      shopifypaymentbutton[0].parentNode.removeChild(shopifypaymentbutton[0]);
+    }
+
+    setInterval(function () {
+      var shopifypaymentbutton = document.getElementsByClassName("shopify-payment-button");
+      while (shopifypaymentbutton.length > 0) {
+        shopifypaymentbutton[0].parentNode.removeChild(shopifypaymentbutton[0]);
+      }
+
+    }, 4000);
+  
+    //2. Add new button
+    var newButton = "\
+      <div style = 'text-align: center'> \
+          <button class='btn shopify-payment-button__button shopify-payment-button__button--unbranded' type='button' onClick='onButtonClick{{ product.id }}()'> \
+              <span>{{ 'agora.buyButtonText' | t: metafield: globals.buyButtonText }}</span> \
+          </button> \
+      </div>";
+    parent.insertAdjacentHTML('beforeend', newButton);
+
+    function onButtonClick{{ product.id }}() {
+      window.open(`${target.amazonUrl}?tag=${target.affiliateId}&linkCode=ogi&th=1&psc=1`);
+    }
+  } 
+</script>
