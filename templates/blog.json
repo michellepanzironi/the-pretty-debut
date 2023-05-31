@@ -1,7 +1,12 @@
 {
   "sections": {
     "main": {
-      "type": "blog-template"
+      "type": "blog-template",
+      "settings": {
+        "layout": "list",
+        "blog_show_author": false,
+        "blog_show_date": false
+      }
     }
   },
   "order": [
