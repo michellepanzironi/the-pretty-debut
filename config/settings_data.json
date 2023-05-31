@@ -288,7 +288,7 @@
           ],
           "settings": {
             "show_payment_icons": true,
-            "color_footer_bg": "#f6f6f6",
+            "color_footer_bg": "#ffffff",
             "color_footer_text": "#333232"
           }
         }
