@@ -7,6 +7,7 @@
     "social_instagram_link": "instagram.com\/the_pretty_edit",
     "favicon": "shopify:\/\/shop_images\/pink_gem_6.png",
     "currency_code_enabled": false,
+    "checkout_error_color": "#dd1d95",
     "sections": {
       "header": {
         "type": "header",
