@@ -2110,7 +2110,7 @@ body {
 
 /* Wrapper */
 #PageContainer {
-  width: 96em;
+  width: 92em;
   max-width: calc(100% - 4em);
   margin: 24px auto 0 auto;
   background-color: var(--color-bg);
