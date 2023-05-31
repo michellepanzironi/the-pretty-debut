@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "Pozadí"
+        },
+        "color_body_gradient_1": {
+          "label": "Přechod Pozadí 1"
+        },
+        "color_body_gradient_2": {
+          "label": "Přechod Pozadí 2"
+        },
+        "color_body_gradient_3": {
+          "label": "Přechod Pozadí 3"
         }
       }
     },

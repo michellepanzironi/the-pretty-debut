@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "Sfondo"
+        },
+        "color_body_gradient_1": {
+          "label": "Sfondo Sfumato 1"
+        },
+        "color_body_gradient_2": {
+          "label": "Sfondo Sfumato 2"
+        },
+        "color_body_gradient_3": {
+          "label": "Sfondo Sfumato 3"
         }
       }
     },

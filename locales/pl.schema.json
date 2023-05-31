@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "Tło"
+        },
+        "color_body_gradient_1": {
+          "label": "Gradient Tła 1"
+        },
+        "color_body_gradient_2": {
+          "label": "Gradient Tła 2"
+        },
+        "color_body_gradient_3": {
+          "label": "Gradient Tła 3"
         }
       }
     },

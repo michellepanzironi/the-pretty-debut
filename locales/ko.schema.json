@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "배경"
+        },
+        "color_body_gradient_1": {
+          "label": "배경 그라데이션 1"
+        },
+        "color_body_gradient_2": {
+          "label": "배경 그라데이션 2"
+        },
+        "color_body_gradient_3": {
+          "label": "배경 그라데이션 3"
         }
       }
     },

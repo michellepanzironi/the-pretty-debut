@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "Arka plan"
+        },
+        "color_body_gradient_1": {
+          "label": "Arka plan gradyanı 1"
+        },
+        "color_body_gradient_2": {
+          "label": "Arka plan gradyanı 2"
+        },
+        "color_body_gradient_3": {
+          "label": "Arka plan gradyanı 3"
         }
       }
     },

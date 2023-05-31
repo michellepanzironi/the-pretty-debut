@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "Nền"
+        },
+        "color_body_gradient_1": {
+          "label": "Độ dốc nền 1"
+        },
+        "color_body_gradient_2": {
+          "label": "Độ dốc nền 2"
+        },
+        "color_body_gradient_3": {
+          "label": "Độ dốc nền 3"
         }
       }
     },

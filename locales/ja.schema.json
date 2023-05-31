@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "背景"
+        },
+        "color_body_gradient_1": {
+          "label": "背景渐变一"
+        },
+        "color_body_gradient_2": {
+          "label": "背景渐变二"
+        },
+        "color_body_gradient_3": {
+          "label": "背景渐变三"
         }
       }
     },

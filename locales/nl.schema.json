@@ -59,6 +59,15 @@
         },
         "color_body_bg": {
           "label": "Achtergrond"
+        },
+        "color_body_gradient_1": {
+          "label": "Achtergrond Verloop 1"
+        },
+        "color_body_gradient_2": {
+          "label": "Achtergrond Verloop 2"
+        },
+        "color_body_gradient_3": {
+          "label": "Achtergrond Verloop 3"
         }
       }
     },
