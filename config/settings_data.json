@@ -1,6 +1,8 @@
 {
   "current": {
     "color_sale_text": "#dd1d95",
+    "color_button": "#ff69b4",
+    "color_text_field_border": "#938b90",
     "sections": {
       "header": {
         "type": "header",
