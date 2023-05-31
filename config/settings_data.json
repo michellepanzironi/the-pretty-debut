@@ -120,22 +120,22 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "37e69953-8235-441f-a4b9-72538973b102": {
+            "type": "text",
             "settings": {
-              "title": "Quick links",
-              "menu": "footer"
+              "title": "Talk about your business",
+              "text": "<p><\/p><p><\/p><p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
           "footer-1": {
             "type": "newsletter",
             "settings": {
-              "title": "Newsletter"
+              "title": ""
             }
           }
         },
         "block_order": [
-          "footer-0",
+          "37e69953-8235-441f-a4b9-72538973b102",
           "footer-1"
         ],
         "settings": {
