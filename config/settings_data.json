@@ -123,8 +123,8 @@
           "37e69953-8235-441f-a4b9-72538973b102": {
             "type": "text",
             "settings": {
-              "title": "Talk about your business",
-              "text": "<p><\/p><p><\/p><p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "title": "",
+              "text": "<p>Sign up to receive emails whenever we publish a new curated product review, and learn why each item was selected for recommendation.<\/p>"
             }
           },
           "footer-1": {
