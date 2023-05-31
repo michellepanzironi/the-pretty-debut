@@ -1,13 +1,22 @@
 {
   "sections": {
     "main": {
-      "type": "article-template"
+      "type": "article-template",
+      "settings": {
+        "blog_show_author": false,
+        "blog_show_date": false,
+        "show_share_buttons": true
+      }
     },
     "article-comments": {
-      "type": "article-comments"
+      "type": "article-comments",
+      "settings": {
+      }
     },
     "article-back-to-blog": {
-      "type": "article-back-to-blog"
+      "type": "article-back-to-blog",
+      "settings": {
+      }
     }
   },
   "order": [
