@@ -4,6 +4,7 @@
     "color_button": "#ff69b4",
     "color_text_field_border": "#938b90",
     "color_body_gradient_2": "#ff69b4",
+    "type_header_font": "helvetica_n7",
     "social_instagram_link": "instagram.com\/the_pretty_edit",
     "favicon": "shopify:\/\/shop_images\/sparkle_emoji_vector.png",
     "currency_code_enabled": false,
@@ -123,14 +124,14 @@
           "37e69953-8235-441f-a4b9-72538973b102": {
             "type": "text",
             "settings": {
-              "title": "",
-              "text": "<p>Sign up to receive emails whenever we publish a new curated product review, and learn why each item was selected for recommendation.<\/p>"
+              "title": "CURATED PRODUCT REVIEWS",
+              "text": "<p>Sign up to receive emails whenever we publish a new review, and learn why each item was selected for recommendation.<\/p>"
             }
           },
           "footer-1": {
             "type": "newsletter",
             "settings": {
-              "title": ""
+              "title": "JOIN THE NEWSLETTER"
             }
           }
         },
