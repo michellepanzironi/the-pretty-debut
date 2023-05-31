@@ -2082,6 +2082,14 @@ body.prevent-scrolling {
   position: fixed;
   width: 100%; }
 
+body {
+  background-color: var(--color-body-gradient-1);
+  background-image: url("./overlay.png"), -moz-linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
+  background-image: url("./overlay.png"), -webkit-linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
+  background-image: url("./overlay.png"), -ms-linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
+  background-image: url("./overlay.png"), linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
+}
+
 .page-width {
   padding-left: 55px;
   padding-right: 55px; }
@@ -2099,6 +2107,27 @@ body.prevent-scrolling {
       -ms-transform: translate3d(0, 0, 0);
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } }
+
+/* Wrapper */
+#PageContainer {
+  width: 92em;
+  max-width: calc(100% - 4em);
+  margin: 24px auto 0 auto;;
+  background-color: var(--color-bg);
+  border-radius: 4px;
+}
+
+  @media screen and (max-width: 480px) {
+    #PageContainer {
+      max-width: calc(100% - 2em);
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    #PageContainer {
+      max-width: 100%;
+    }
+  }
 
 hr {
   margin: 55px 0;
