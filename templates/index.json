@@ -6,12 +6,12 @@
         "image": "shopify:\/\/shop_images\/a-tattooed-hand-doing-the-sign-for-i-love-you.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
-        "hero_size": "large",
+        "hero_size": "medium",
         "text_size": "large",
-        "title": "Image with text overlay",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "title": "the pretty edit",
+        "text": "<p>the pretty edit<\/p>",
         "button_label": "",
-        "button_link": ""
+        "button_link": "shopify:\/\/collections"
       }
     },
     "feature-row": {
