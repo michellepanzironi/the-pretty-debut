@@ -82,6 +82,7 @@
     "hero-2": {
       "type": "hero",
       "settings": {
+        "image": "shopify:\/\/shop_images\/long-curly-hair-and-dark-lipstick.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "medium",
@@ -95,17 +96,19 @@
     "image-bar": {
       "type": "image-bar",
       "blocks": {
-        "image-bar-0": {
+        "image-bar-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/close-up-leather-jacket-over-shoulders.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""
           }
         },
-        "image-bar-1": {
+        "image-bar-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/a-woman-in-a-summer-dress-walks-through-a-corridor.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""
@@ -114,6 +117,7 @@
         "image-bar-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/tattood-man-using-creative-technology.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""
@@ -121,8 +125,8 @@
         }
       },
       "block_order": [
-        "image-bar-0",
         "image-bar-1",
+        "image-bar-0",
         "image-bar-2"
       ],
       "settings": {
