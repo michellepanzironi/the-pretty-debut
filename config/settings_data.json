@@ -134,14 +134,14 @@
           "37e69953-8235-441f-a4b9-72538973b102": {
             "type": "text",
             "settings": {
-              "title": "CURATED PRODUCT REVIEWS",
+              "title": "Get Curated Product Reviews",
               "text": "<p>Sign up to receive emails whenever we publish a new review, and learn why each item was selected for recommendation.<\/p>"
             }
           },
           "footer-1": {
             "type": "newsletter",
             "settings": {
-              "title": "JOIN THE NEWSLETTER"
+              "title": "In Your Inbox"
             }
           }
         },
