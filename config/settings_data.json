@@ -135,13 +135,13 @@
             "type": "text",
             "settings": {
               "title": "Get Curated Product Reviews",
-              "text": "<p>Sign up to receive emails whenever we publish a new review, and learn why each item was selected for recommendation.<\/p>"
+              "text": "<p>Sign up to receive emails whenever I publish a new review, and learn why each item was selected for recommendation.<\/p>"
             }
           },
           "footer-1": {
             "type": "newsletter",
             "settings": {
-              "title": "In Your Inbox"
+              "title": "- Newsletter -"
             }
           }
         },
