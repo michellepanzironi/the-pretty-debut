@@ -25,6 +25,31 @@
         "button_link": ""
       }
     },
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "title": "Some Pretty Things",
+        "collection": "frontpage",
+        "grid": 4,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": true
+      }
+    },
+    "hero-2": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/long-curly-hair-and-dark-lipstick.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Image with text overlay",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "feature-columns": {
       "type": "feature-columns",
       "blocks": {
@@ -67,31 +92,6 @@
       "settings": {
         "title": "",
         "align_text": "left"
-      }
-    },
-    "collection": {
-      "type": "collection",
-      "settings": {
-        "title": "Some Pretty Things",
-        "collection": "frontpage",
-        "grid": 4,
-        "rows": 2,
-        "show_vendor": false,
-        "show_view_all": true
-      }
-    },
-    "hero-2": {
-      "type": "hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/long-curly-hair-and-dark-lipstick.jpg",
-        "alignment": "center",
-        "hero_layout": "full_width",
-        "hero_size": "medium",
-        "text_size": "large",
-        "title": "Image with text overlay",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "button_label": "",
-        "button_link": ""
       }
     },
     "image-bar": {
@@ -138,9 +138,9 @@
   "order": [
     "hero-1",
     "feature-row",
-    "feature-columns",
     "collection",
     "hero-2",
+    "feature-columns",
     "image-bar"
   ]
 }
