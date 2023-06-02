@@ -17,6 +17,7 @@
     "feature-row": {
       "type": "feature-row",
       "settings": {
+        "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "layout": "left",
         "title": "Image with text",
         "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -108,7 +109,7 @@
         "image-bar-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-woman-in-a-summer-dress-walks-through-a-corridor.jpg",
+            "image": "shopify:\/\/shop_images\/film-camera-on-pink-background.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""
