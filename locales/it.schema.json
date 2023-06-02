@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "Sfondo"
         },
+        "color_site_nav_background": {
+          "label": "Sfondo di navigazione"
+        },
+        "color_site_nav_text": {
+          "label": "Testo di navigazione"
+        },
         "color_body_gradient_1": {
-          "label": "Sfondo Sfumato 1"
+          "label": "Sfondo sfumato 1"
         },
         "color_body_gradient_2": {
-          "label": "Sfondo Sfumato 2"
-        },
-        "color_body_gradient_3": {
-          "label": "Sfondo Sfumato 3"
+          "label": "Sfondo sfumato 2"
         }
       }
     },

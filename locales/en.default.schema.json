@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "Background"
         },
+        "color_site_nav_background": {
+          "label": "Navigation Background"
+        },
+        "color_site_nav_text": {
+          "label": "Navigation Text"
+        },
         "color_body_gradient_1": {
           "label": "Background Gradient 1"
         },
         "color_body_gradient_2": {
           "label": "Background Gradient 2"
-        },
-        "color_body_gradient_3": {
-          "label": "Background Gradient 3"
         }
       }
     },

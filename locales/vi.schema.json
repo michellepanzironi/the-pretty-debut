@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "Nền"
         },
+        "color_site_nav_background": {
+          "label": "Nền điều hướng"
+        },
+        "color_site_nav_text": {
+          "label": "Văn bản điều hướng"
+        },
         "color_body_gradient_1": {
           "label": "Độ dốc nền 1"
         },
         "color_body_gradient_2": {
           "label": "Độ dốc nền 2"
-        },
-        "color_body_gradient_3": {
-          "label": "Độ dốc nền 3"
         }
       }
     },

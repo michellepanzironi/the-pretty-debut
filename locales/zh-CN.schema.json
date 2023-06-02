@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "背景"
         },
+        "color_site_nav_background": {
+          "label": "导航背景"
+        },
+        "color_site_nav_text": {
+          "label": "导航文本"
+        },
         "color_body_gradient_1": {
           "label": "背景渐变1"
         },
         "color_body_gradient_2": {
           "label": "背景渐变2"
-        },
-        "color_body_gradient_3": {
-          "label": "背景渐变3"
         }
       }
     },

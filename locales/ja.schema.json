@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "背景"
         },
+        "color_site_nav_background": {
+          "label": "ナビゲーションの背景"
+        },
+        "color_site_nav_text": {
+          "label": "ナビゲーションテキスト"
+        },
         "color_body_gradient_1": {
-          "label": "背景渐变一"
+          "label": "背景のグラデーション1"
         },
         "color_body_gradient_2": {
-          "label": "背景渐变二"
-        },
-        "color_body_gradient_3": {
-          "label": "背景渐变三"
+          "label": "背景のグラデーション2"
         }
       }
     },

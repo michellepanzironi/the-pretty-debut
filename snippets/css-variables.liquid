@@ -41,9 +41,10 @@
     --color-bg-rgb: {{ settings.color_body_bg | color_to_rgb | remove: 'rgb(' | remove: 'rgba(' | remove: ')' | remove: ', 0.0' }};
     --color-bg-alt: {{ settings.color_body_text | color_modify: 'alpha', 0.05 }};
     --color-bg-currency-selector: {{ settings.color_body_text | color_modify: 'alpha', 0.2 }};
+    --color-site-nav-background: {{ settings.color_site_nav_background }};
+    --color-site-nav-text: {{ settings.color_site_nav_text}};
     --color-body-gradient-1: {{ settings.color_body_gradient_1 }};
     --color-body-gradient-2: {{ settings.color_body_gradient_2 }};
-    --color-body-gradient-3: {{ settings.color_body_gradient_3 }};
 
     --color-overlay-title-text: {{ settings.color_image_overlay_text }};
     --color-image-overlay: {{ settings.color_image_overlay }};

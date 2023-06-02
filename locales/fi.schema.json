@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "Tausta"
         },
+        "color_site_nav_background": {
+          "label": "Navigoinnin Tausta"
+        },
+        "color_site_nav_text": {
+          "label": "Navigointiteksti"
+        },
         "color_body_gradient_1": {
           "label": "Tausta Gradient 1"
         },
         "color_body_gradient_2": {
           "label": "Tausta Gradient 2"
-        },
-        "color_body_gradient_3": {
-          "label": "Tausta Gradient 3"
         }
       }
     },

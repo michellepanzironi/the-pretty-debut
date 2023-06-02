@@ -2000,8 +2000,12 @@ textarea {
   border-bottom: 1px solid transparent;
   z-index: 2; }
 
+.site-nav__link {
+  color: var(--color-site-nav-text);
+}
+
 .site-nav__link:focus .site-nav__label, .site-nav__link:not([disabled]):hover .site-nav__label {
-  border-bottom-color: var(--color-text); }
+  color: var(--color-btn-primary-focus); }
 
 @media only screen and (max-width: 989px) {
   .site-nav__link--button {
@@ -2083,11 +2087,11 @@ body.prevent-scrolling {
   width: 100%; }
 
 body {
-  background-color: var(--color-body-gradient-1);
-  background-image: url("./overlay.png"), -moz-linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
-  background-image: url("./overlay.png"), -webkit-linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
-  background-image: url("./overlay.png"), -ms-linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
-  background-image: url("./overlay.png"), linear-gradient(45deg, var(--color-body-gradient-2) 15%, var(--color-body-gradient-3) 85%);
+  background-color: var(--color-site-nav-background);
+  background-image: url("./overlay.png"), -moz-linear-gradient(45deg, var(--color-body-gradient-1) 15%, var(--color-body-gradient-2) 85%);
+  background-image: url("./overlay.png"), -webkit-linear-gradient(45deg, var(--color-body-gradient-1) 15%, var(--color-body-gradient-2) 85%);
+  background-image: url("./overlay.png"), -ms-linear-gradient(45deg, var(--color-body-gradient-1) 15%, var(--color-body-gradient-2) 85%);
+  background-image: url("./overlay.png"), linear-gradient(45deg, var(--color-body-gradient-1) 15%, var(--color-body-gradient-2) 85%);
 }
 
 .page-width {
@@ -3694,9 +3698,12 @@ hr {
       min-width: 150px; } }
 
 /*================ MODULES ================*/
+
+
+
 .site-header {
   position: relative;
-  background-color: var(--color-body); }
+}
   @media only screen and (max-width: 749px) {
     .site-header {
       border-bottom: 1px solid var(--color-border); } }
@@ -3705,6 +3712,12 @@ hr {
       padding: 0 55px; }
       .site-header.logo--center {
         padding-top: 30px; } }
+
+.site-header,
+.site-header div {
+  background-color: var(--color-site-nav-background);
+  color: var(--color-site-nav-text);
+}
 
 .site-header__logo {
   margin: 15px 0; }

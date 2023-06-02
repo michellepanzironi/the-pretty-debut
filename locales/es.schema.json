@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "Fondo"
         },
+        "color_site_nav_background": {
+          "label": "Fondo de navegación"
+        },
+        "color_site_nav_text": {
+          "label": "Texto de navegación"
+        },
         "color_body_gradient_1": {
-          "label": "Gradiente de Fondo 1"
+          "label": "Gradiente de fondo 1"
         },
         "color_body_gradient_2": {
-          "label": "Gradiente de Fondo 2"
-        },
-        "color_body_gradient_3": {
-          "label": "Gradiente de Fondo 3"
+          "label": "Gradiente de fondo 2"
         }
       }
     },

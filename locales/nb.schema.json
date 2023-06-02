@@ -60,14 +60,17 @@
         "color_body_bg": {
           "label": "Bakgrunn"
         },
+        "color_site_nav_background": {
+          "label": "Navigasjonsbakgrunn"
+        },
+        "color_site_nav_text": {
+          "label": "Navigasjonstekst"
+        },
         "color_body_gradient_1": {
           "label": "Bakgrunnsgradient 1"
         },
         "color_body_gradient_2": {
           "label": "Bakgrunnsgradient 2"
-        },
-        "color_body_gradient_3": {
-          "label": "Bakgrunnsgradient 3"
         }
       }
     },
