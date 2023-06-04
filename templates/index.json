@@ -57,6 +57,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/film-camera-on-pink-background.jpg",
             "title": "Add a title or tagline",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
@@ -109,7 +110,7 @@
         "image-bar-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/film-camera-on-pink-background.jpg",
+            "image": "shopify:\/\/shop_images\/fashion-model-in-fur.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""
@@ -123,12 +124,22 @@
             "link": "",
             "cta_label": ""
           }
+        },
+        "9e701f80-d03d-4892-a1fb-7ef5a602feee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/getting-into-the-party-spirit-with-confetti.jpg",
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
         }
       },
       "block_order": [
         "image-bar-1",
         "image-bar-0",
-        "image-bar-2"
+        "image-bar-2",
+        "9e701f80-d03d-4892-a1fb-7ef5a602feee"
       ],
       "settings": {
         "section_height": "medium"
