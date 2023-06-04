@@ -68,6 +68,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/womans-steampunk-sunglasses.jpg",
             "title": "Add a title or tagline",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
@@ -78,6 +79,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/young-woman-model-portrait.jpg",
             "title": "Add a title or tagline",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "button_label": "",
@@ -144,6 +146,54 @@
       "settings": {
         "section_height": "medium"
       }
+    },
+    "13554582-5749-4825-b508-961a706427cd": {
+      "type": "image-bar",
+      "blocks": {
+        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-woman-with-mobile-and-coffee.jpg",
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/young-woman-model-portrait.jpg",
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-2": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "d6c68109-7219-45e8-89fa-c16b6365d63e": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-0",
+        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-1",
+        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-2",
+        "d6c68109-7219-45e8-89fa-c16b6365d63e"
+      ],
+      "settings": {
+        "section_height": "medium"
+      }
     }
   },
   "order": [
@@ -152,6 +202,7 @@
     "collection",
     "hero-2",
     "feature-columns",
-    "image-bar"
+    "image-bar",
+    "13554582-5749-4825-b508-961a706427cd"
   ]
 }
