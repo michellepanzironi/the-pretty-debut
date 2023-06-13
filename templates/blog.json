@@ -2,8 +2,11 @@
   "sections": {
     "main": {
       "type": "blog-template",
+      "custom_css": [
+
+      ],
       "settings": {
-        "layout": "list",
+        "layout": "grid",
         "blog_show_author": false,
         "blog_show_date": false
       }
