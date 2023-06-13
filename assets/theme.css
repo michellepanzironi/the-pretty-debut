@@ -3896,7 +3896,8 @@ hr {
   margin-bottom: 22px; }
 
 .article__title {
-  margin-bottom: 11px; }
+  margin-bottom: 11px;
+  font-weight: 600; }
 
 @media only screen and (max-width: 749px) {
   .article__title--has-image {
