@@ -114,21 +114,8 @@
             "link": "",
             "cta_label": ""
           }
-        }
-      },
-      "block_order": [
-        "image-bar-1",
-        "image-bar-0",
-        "image-bar-2"
-      ],
-      "settings": {
-        "section_height": "medium"
-      }
-    },
-    "13554582-5749-4825-b508-961a706427cd": {
-      "type": "image-bar",
-      "blocks": {
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-0": {
+        },
+        "d2e79cde-72e0-45ac-84ee-cda79f22d4e4": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/a-woman-with-mobile-and-coffee.jpg",
@@ -136,28 +123,13 @@
             "link": "",
             "cta_label": ""
           }
-        },
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-2": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "d6c68109-7219-45e8-89fa-c16b6365d63e": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
         }
       },
       "block_order": [
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-0",
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-2",
-        "d6c68109-7219-45e8-89fa-c16b6365d63e"
+        "image-bar-1",
+        "image-bar-0",
+        "image-bar-2",
+        "d2e79cde-72e0-45ac-84ee-cda79f22d4e4"
       ],
       "settings": {
         "section_height": "medium"
@@ -170,7 +142,6 @@
     "collection",
     "hero-2",
     "feature-columns",
-    "image-bar",
-    "13554582-5749-4825-b508-961a706427cd"
+    "image-bar"
   ]
 }
