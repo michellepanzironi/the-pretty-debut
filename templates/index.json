@@ -74,23 +74,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "feature-columns-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/young-woman-model-portrait.jpg",
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "feature-columns-0",
-        "feature-columns-1",
-        "feature-columns-2"
+        "feature-columns-1"
       ],
       "settings": {
         "title": "",
@@ -127,10 +115,10 @@
             "cta_label": ""
           }
         },
-        "9e701f80-d03d-4892-a1fb-7ef5a602feee": {
+        "d2e79cde-72e0-45ac-84ee-cda79f22d4e4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/getting-into-the-party-spirit-with-confetti.jpg",
+            "image": "shopify:\/\/shop_images\/a-woman-with-mobile-and-coffee.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""
@@ -141,55 +129,7 @@
         "image-bar-1",
         "image-bar-0",
         "image-bar-2",
-        "9e701f80-d03d-4892-a1fb-7ef5a602feee"
-      ],
-      "settings": {
-        "section_height": "medium"
-      }
-    },
-    "13554582-5749-4825-b508-961a706427cd": {
-      "type": "image-bar",
-      "blocks": {
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/a-woman-with-mobile-and-coffee.jpg",
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/young-woman-model-portrait.jpg",
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-2": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        },
-        "d6c68109-7219-45e8-89fa-c16b6365d63e": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "link": "",
-            "cta_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-0",
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-1",
-        "template--19188990542145__13554582-5749-4825-b508-961a706427cd-1685898250cc2f62d4-2",
-        "d6c68109-7219-45e8-89fa-c16b6365d63e"
+        "d2e79cde-72e0-45ac-84ee-cda79f22d4e4"
       ],
       "settings": {
         "section_height": "medium"
@@ -202,7 +142,6 @@
     "collection",
     "hero-2",
     "feature-columns",
-    "image-bar",
-    "13554582-5749-4825-b508-961a706427cd"
+    "image-bar"
   ]
 }
