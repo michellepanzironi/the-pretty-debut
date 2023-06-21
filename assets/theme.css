@@ -2099,8 +2099,8 @@ body {
   padding-right: 55px; }
   @media only screen and (max-width: 749px) {
     .page-width {
-      padding-left: 22px;
-      padding-right: 22px; } }
+      padding-left: 0px;
+      padding-right: 0px; } }
 
 .page-container {
   transition: all 0.45s cubic-bezier(0.29, 0.63, 0.44, 1);
@@ -2121,10 +2121,10 @@ body {
   border-radius: 4px;
 }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 749px) {
     #PageContainer {
-      margin: 14px auto 0 auto;
-      max-width: calc(100% - 2em);
+      margin: 0;
+      max-width: 100%;
     }
   }
 
@@ -5810,7 +5810,9 @@ hr {
   @media only screen and (max-width: 749px) {
     .feature-row__text {
       order: 2;
-      padding-bottom: 0; } }
+      padding-bottom: 0;
+      padding-left: 8px;
+      padding-right: 8px; } }
 
 @media only screen and (min-width: 750px) {
   .feature-row__text--left {
