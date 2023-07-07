@@ -155,12 +155,12 @@
     "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18": {
       "type": "featured-blog",
       "settings": {
-        "title": "REVIEWS",
+        "title": "Product Reviews",
         "blog": "reviews",
         "post_limit": 6,
         "blog_show_author": false,
         "blog_show_date": true,
-        "show_view_all": false
+        "show_view_all": true
       }
     }
   },
