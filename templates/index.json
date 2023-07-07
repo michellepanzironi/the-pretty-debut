@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
-        "hero_size": "medium",
+        "hero_size": "small",
         "text_size": "large",
         "title": "",
         "text": "",
@@ -17,12 +17,13 @@
     "08a8aff6-2279-443a-970a-1bdc7aab2f8d": {
       "type": "hero",
       "settings": {
+        "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "x-small",
         "text_size": "large",
-        "title": "",
-        "text": "<p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
+        "title": "Pretty Useful",
+        "text": "<p>curated recommendations selected for style & function<\/p>",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/all"
       }
