@@ -2,6 +2,7 @@
   "sections": {
     "hero-1": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "alignment": "center",
@@ -22,15 +23,14 @@
         "hero_layout": "full_width",
         "hero_size": "x-small",
         "text_size": "large",
-        "title": "Pretty Useful",
-        "text": "<p>curated recommendations selected for style & function<\/p>",
+        "title": "Pretty Useful, Curated",
+        "text": "<p>Recommendations selected for style & function<\/p>",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/all"
       }
     },
     "feature-row": {
       "type": "feature-row",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "layout": "left",
