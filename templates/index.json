@@ -19,7 +19,7 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/contrast-in-pink-and-blue-lights.jpg",
-        "alignment": "center",
+        "alignment": "bottom",
         "hero_layout": "full_width",
         "hero_size": "small",
         "text_size": "large",
