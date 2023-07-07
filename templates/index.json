@@ -33,7 +33,7 @@
       "type": "feature-row",
       "settings": {
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
-        "layout": "left",
+        "layout": "right",
         "title": "",
         "text": "<p>I made this store to showcase my abilities in <a href=\"https:\/\/michellepanzironi.com\" target=\"_blank\" title=\"Michelle Panzironi - Shopify Web Development\">Shopify Web Development<\/a>.<\/p><p>Everything featured here is something I've bought, enjoyed, and sincerely recommend to my friends. No bullshit.<\/p><p>Product pages contain affiliate links. If you click through and buy something, I'll make a little money. <\/p>",
         "button_label": "",
