@@ -8,8 +8,8 @@
         "hero_layout": "full_width",
         "hero_size": "medium",
         "text_size": "large",
-        "title": "",
-        "text": "<p>~<\/p><p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
+        "title": "seek no approval",
+        "text": "<p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/all"
       }
