@@ -171,6 +171,17 @@
         "blog_show_date": true,
         "show_view_all": true
       }
+    },
+    "44c65d0a-f742-4f77-9e5a-69e62f704cf4": {
+      "type": "collection",
+      "settings": {
+        "title": "Beauty & Wellness",
+        "collection": "beauty-wellness",
+        "grid": 2,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -182,6 +193,7 @@
     "hero-2",
     "feature-columns",
     "image-bar",
-    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18"
+    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18",
+    "44c65d0a-f742-4f77-9e5a-69e62f704cf4"
   ]
 }
