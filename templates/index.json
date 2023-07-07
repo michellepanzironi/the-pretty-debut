@@ -52,6 +52,7 @@
     },
     "feature-columns": {
       "type": "feature-columns",
+      "disabled": true,
       "blocks": {
         "feature-columns-0": {
           "type": "text_block",
@@ -87,6 +88,7 @@
     },
     "image-bar": {
       "type": "image-bar",
+      "disabled": true,
       "blocks": {
         "image-bar-1": {
           "type": "image",
