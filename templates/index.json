@@ -24,7 +24,7 @@
         "hero_size": "small",
         "text_size": "large",
         "title": "Pretty. Useful. Curated.",
-        "text": "<p><strong>recommendations selected for style & function<\/strong><\/p>",
+        "text": "<p><em><strong>recommendations selected for style & function<\/strong><\/em><\/p>",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/all"
       }
