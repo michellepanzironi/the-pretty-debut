@@ -19,12 +19,12 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/multiple-neon-light-reflecting-on-road.jpg",
-        "alignment": "top",
+        "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "small",
         "text_size": "large",
         "title": "Pretty. Useful. Curated.",
-        "text": "<p>recommendations selected for style & function<\/p>",
+        "text": "<p><strong>recommendations selected for style & function<\/strong><\/p>",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/all"
       }
