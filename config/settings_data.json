@@ -4,7 +4,7 @@
     "color_button": "#dd1d95",
     "color_text_field_border": "#938b90",
     "color_image_overlay": "#282828",
-    "image_overlay_opacity": 0,
+    "image_overlay_opacity": 10,
     "color_borders": "#481241",
     "color_body_bg": "#ffffff",
     "color_site_nav_background": "#000000",
