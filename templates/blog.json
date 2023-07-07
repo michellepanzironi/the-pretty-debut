@@ -6,7 +6,7 @@
 
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "list",
         "blog_show_author": false,
         "blog_show_date": false
       }
