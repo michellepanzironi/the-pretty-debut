@@ -31,7 +31,7 @@
         "title": "Some Pretty Things",
         "collection": "frontpage",
         "grid": 4,
-        "rows": 2,
+        "rows": 5,
         "show_vendor": false,
         "show_view_all": true
       }
