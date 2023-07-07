@@ -3,19 +3,20 @@
     "hero-1": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
-        "alignment": "center",
+        "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
+        "alignment": "bottom",
         "hero_layout": "full_width",
-        "hero_size": "small",
+        "hero_size": "medium",
         "text_size": "large",
-        "title": "Pretty Useful",
-        "text": "<p>Curated recommendations<\/p><p>selected for style and function.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections"
+        "title": "",
+        "text": "<p>~ <\/p><p>~<\/p><p>~<\/p><p>~ <\/p><p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/all"
       }
     },
     "feature-row": {
       "type": "feature-row",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "layout": "left",
