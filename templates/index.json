@@ -4,9 +4,9 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
-        "alignment": "bottom",
+        "alignment": "center",
         "hero_layout": "full_width",
-        "hero_size": "small",
+        "hero_size": "medium",
         "text_size": "large",
         "title": "",
         "text": "<p>~<\/p><p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
