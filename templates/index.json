@@ -6,7 +6,7 @@
         "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
-        "hero_size": "medium",
+        "hero_size": "small",
         "text_size": "large",
         "title": "Pretty Useful",
         "text": "<p>Curated recommendations<\/p><p>selected for style and function.<\/p>",
