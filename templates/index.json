@@ -19,7 +19,7 @@
       "type": "hero",
       "settings": {
         "image": "shopify:\/\/shop_images\/multiple-neon-light-reflecting-on-road.jpg",
-        "alignment": "center",
+        "alignment": "top",
         "hero_layout": "full_width",
         "hero_size": "small",
         "text_size": "large",
@@ -36,7 +36,7 @@
         "layout": "left",
         "title": "",
         "text": "<p>I made this store to showcase my abilities in <a href=\"https:\/\/michellepanzironi.com\" target=\"_blank\" title=\"Michelle Panzironi - Shopify Web Development\">Shopify Web Development<\/a>.<\/p><p>It's a collection of some of my favorite products. Everything featured here is something I've bought, enjoyed, and sincerely recommend to my friends. No bullshit.<\/p><p>Product pages contain affiliate links. If you click through and buy something, I'll make a little money. <\/p>",
-        "button_label": "ddd",
+        "button_label": "",
         "button_link": ""
       }
     },
