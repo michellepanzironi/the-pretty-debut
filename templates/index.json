@@ -51,8 +51,17 @@
         "show_view_all": false
       }
     },
+    "73854e5d-93c9-4299-bdcf-2a37ccdbd463": {
+      "type": "newsletter",
+      "settings": {
+        "section_title": "Subscribe to our newsletter",
+        "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "show_background": true
+      }
+    },
     "hero-2": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/long-curly-hair-and-dark-lipstick.jpg",
         "alignment": "center",
@@ -162,6 +171,38 @@
         "blog_show_date": true,
         "show_view_all": true
       }
+    },
+    "9d367f9a-e0b9-4c39-8269-104f6a4d7740": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-0",
+        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-1",
+        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "grid": 3
+      }
     }
   },
   "order": [
@@ -169,9 +210,11 @@
     "08a8aff6-2279-443a-970a-1bdc7aab2f8d",
     "feature-row",
     "collection",
+    "73854e5d-93c9-4299-bdcf-2a37ccdbd463",
     "hero-2",
     "feature-columns",
     "image-bar",
-    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18"
+    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18",
+    "9d367f9a-e0b9-4c39-8269-104f6a4d7740"
   ]
 }
