@@ -6,10 +6,10 @@
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "alignment": "bottom",
         "hero_layout": "full_width",
-        "hero_size": "medium",
+        "hero_size": "small",
         "text_size": "large",
         "title": "",
-        "text": "<p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
+        "text": "<p>~<\/p><p>Pretty, useful, curated recommendations <\/p><p>selected for style and function.<\/p>",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/collections\/all"
       }
