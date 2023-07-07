@@ -171,38 +171,6 @@
         "blog_show_date": true,
         "show_view_all": true
       }
-    },
-    "9d367f9a-e0b9-4c39-8269-104f6a4d7740": {
-      "type": "collection-list",
-      "blocks": {
-        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-0",
-        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-1",
-        "template--19188990542145__9d367f9a-e0b9-4c39-8269-104f6a4d7740-168877174019124393-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "grid": 3
-      }
     }
   },
   "order": [
@@ -214,7 +182,6 @@
     "hero-2",
     "feature-columns",
     "image-bar",
-    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18",
-    "9d367f9a-e0b9-4c39-8269-104f6a4d7740"
+    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18"
   ]
 }
