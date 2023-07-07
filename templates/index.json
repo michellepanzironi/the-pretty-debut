@@ -151,6 +151,17 @@
       "settings": {
         "section_height": "medium"
       }
+    },
+    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "REVIEWS",
+        "blog": "reviews",
+        "post_limit": 6,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -160,6 +171,7 @@
     "collection",
     "hero-2",
     "feature-columns",
-    "image-bar"
+    "image-bar",
+    "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18"
   ]
 }
