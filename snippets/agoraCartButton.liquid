@@ -1,6 +1,5 @@
 {% assign agora = product.metafields.global %}
 {% assign globals = shop.metafields.global %}
-<script src = "//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js" type = "text/javascript"></script>
 <script>
   if ("{{ agora.defaultAmazonUrl }}") {
     //0. Localise Amazon URL
@@ -8,75 +7,67 @@
       amazonUrl: "{{ product.metafields.global['defaultAmazonUrl'] }}",
       affiliateId: "{{ shop.metafields.global['affiliateId'] }}"
     };
-    jQuery.ajax({
-      url: "//freegeoip.app/json/",
-      type: "GET",
-      dataType: "jsonp",
-      error: function () {
+
+    //0a. Setting target country based on user's location
+    switch ("{{ localization.country.iso_code }}".toLowerCase()) {
+      case "au":
+        target = writeTarget('country_com.au');
+        break;
+      case "br":
+        target = writeTarget('country_com.br');
+        break;
+      case "ca":
+        target = writeTarget('country_ca');
+        break;
+      case "cn":
+        target = writeTarget('country_cn');
+        break;
+      case "fr":
+        target = writeTarget('country_fr');
+        break;
+      case "de":
+        target = writeTarget('country_de');
+        break;
+      case "in":
+        target = writeTarget('country_in');
+        break;
+      case "it":
+        target = writeTarget('country_it');
+        break;
+      case "jp":
+        target = writeTarget('country_co.jp');
+        break;
+      case "mx":
+        target = writeTarget('country_com.mx');
+        break;
+      case "nl":
+        target = writeTarget('country_nl');
+        break;
+      case "pl":
+        target = writeTarget('country_pl');
+        break;
+      case "sg":
+        target = writeTarget('country_sg');
+        break;
+      case "es":
+        target = writeTarget('country_es');
+        break;
+      case "tr":
+        target = writeTarget('country_com.tr');
+        break;
+      case "ae":
+        target = writeTarget('country_ae');
+        break;
+      case "uk":
+        target = writeTarget('country_co.uk');
+        break;
+      case "us":
+        target = writeTarget('country_com');
+        break;
+      default:
         target = writeTarget('');
-      },
-      success: function (location) {
-        switch (location.country_code.toLowerCase()) {
-        case "au":
-          target = writeTarget('country_com.au');
-          break;
-        case "br":
-          target = writeTarget('country_com.br');
-          break;
-        case "ca":
-          target = writeTarget('country_ca');
-          break;
-        case "cn":
-          target = writeTarget('country_cn');
-          break;
-        case "fr":
-          target = writeTarget('country_fr');
-          break;
-        case "de":
-          target = writeTarget('country_de');
-          break;
-        case "in":
-          target = writeTarget('country_in');
-          break;
-        case "it":
-          target = writeTarget('country_it');
-          break;
-        case "jp":
-          target = writeTarget('country_co.jp');
-          break;
-        case "mx":
-          target = writeTarget('country_com.mx');
-          break;
-        case "nl":
-          target = writeTarget('country_nl');
-          break;
-        case "pl":
-          target = writeTarget('country_pl');
-          break;
-        case "sg":
-          target = writeTarget('country_sg');
-          break;
-        case "es":
-          target = writeTarget('country_es');
-          break;
-        case "tr":
-          target = writeTarget('country_com.tr');
-          break;
-        case "ae":
-          target = writeTarget('country_ae');
-          break;
-        case "uk":
-          target = writeTarget('country_co.uk');
-          break;
-        case "us":
-          target = writeTarget('country_com');
-          break;
-        default:
-          target = writeTarget('');
-          break;
-        }
-      }
-    });
+        break;
+    }
 
     function writeTarget(metafieldName) {
       let productMetafields = {{product.metafields.global | json}};
