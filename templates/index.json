@@ -34,9 +34,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "layout": "left",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_label": "",
+        "title": "",
+        "text": "<p>This is a store I made to showcase my abilities in <a href=\"https:\/\/michellepanzironi.com\" target=\"_blank\" title=\"Michelle Panzironi - Shopify Web Development\">Shopify Web Development<\/a>.<\/p><p>It's a collection of some of my favorite products. Everything featured here is something I've bought, enjoyed, and would sincerely recommend to my friends.<\/p><p>Product pages contain affiliate links. If you click through and buy something, I'll make a little money. <\/p>",
+        "button_label": "ddd",
         "button_link": ""
       }
     },
