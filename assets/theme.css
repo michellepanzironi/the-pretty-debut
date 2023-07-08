@@ -1072,7 +1072,7 @@ textarea {
 
 .main-content {
   display: block;
-  padding-top: 35px; }
+  padding: 35px 12px; }
   @media only screen and (min-width: 750px) {
     .main-content {
       padding-top: 55px; } }
