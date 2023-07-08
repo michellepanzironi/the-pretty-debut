@@ -78,7 +78,7 @@
           "type": "shopify:\/\/apps\/amazon-importer-spreadr-app\/blocks\/app-block\/8ec7bd1c-ef5e-4a26-b758-738a3a1b3e0b",
           "settings": {
             "spreadrbtnclass": "btn button",
-            "spreadrstyle": ""
+            "spreadrstyle": "margin-left: 48px"
           }
         }
       },
