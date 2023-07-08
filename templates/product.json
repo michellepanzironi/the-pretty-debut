@@ -65,6 +65,7 @@
     },
     "product-back-to-collection": {
       "type": "product-back-to-collection",
+      "disabled": true,
       "settings": {
       }
     }
