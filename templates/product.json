@@ -20,7 +20,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
@@ -58,6 +57,7 @@
     },
     "55c6a608-7312-4de6-8b20-9c559e19e07e": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "section_title": "Talk about your brand",
