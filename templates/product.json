@@ -18,16 +18,9 @@
           "settings": {
           }
         },
-        "11fc902f-00aa-4b18-aadb-1edf4b90ec81": {
-          "type": "shopify:\/\/apps\/amazon-importer-spreadr-app\/blocks\/app-block\/8ec7bd1c-ef5e-4a26-b758-738a3a1b3e0b",
-          "disabled": true,
-          "settings": {
-            "spreadrbtnclass": "btn button",
-            "spreadrstyle": "margin-bottom: 10px;"
-          }
-        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -35,15 +28,23 @@
           "type": "share",
           "settings": {
           }
+        },
+        "11fc902f-00aa-4b18-aadb-1edf4b90ec81": {
+          "type": "shopify:\/\/apps\/amazon-importer-spreadr-app\/blocks\/app-block\/8ec7bd1c-ef5e-4a26-b758-738a3a1b3e0b",
+          "disabled": true,
+          "settings": {
+            "spreadrbtnclass": "btn button",
+            "spreadrstyle": "margin-bottom: 10px;"
+          }
         }
       },
       "block_order": [
         "title",
         "price",
         "buttons",
-        "11fc902f-00aa-4b18-aadb-1edf4b90ec81",
         "description",
-        "share"
+        "share",
+        "11fc902f-00aa-4b18-aadb-1edf4b90ec81"
       ],
       "settings": {
         "show_quantity_selector": false,
@@ -53,6 +54,41 @@
         "media_size": "medium",
         "enable_image_zoom": true,
         "enable_video_looping": false
+      }
+    },
+    "55c6a608-7312-4de6-8b20-9c559e19e07e": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "text_size": "medium"
+      }
+    },
+    "d0b10332-8e4e-4cd3-954d-01895928615c": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Details & Description",
+        "text": "<p>{{ product.title }}<\/p>",
+        "text_size": "medium"
+      }
+    },
+    "1688781187c1f01738": {
+      "type": "apps",
+      "blocks": {
+        "1e8b7595-18c0-40b3-8e9a-bfb6ad964944": {
+          "type": "shopify:\/\/apps\/amazon-importer-spreadr-app\/blocks\/app-block\/8ec7bd1c-ef5e-4a26-b758-738a3a1b3e0b",
+          "settings": {
+            "spreadrbtnclass": "btn button",
+            "spreadrstyle": "margin-bottom: 10px;"
+          }
+        }
+      },
+      "block_order": [
+        "1e8b7595-18c0-40b3-8e9a-bfb6ad964944"
+      ],
+      "settings": {
       }
     },
     "product-recommendations": {
@@ -72,6 +108,9 @@
   },
   "order": [
     "main",
+    "55c6a608-7312-4de6-8b20-9c559e19e07e",
+    "d0b10332-8e4e-4cd3-954d-01895928615c",
+    "1688781187c1f01738",
     "product-recommendations",
     "product-back-to-collection"
   ]
