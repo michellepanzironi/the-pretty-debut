@@ -49,16 +49,6 @@
         "enable_video_looping": false
       }
     },
-    "55c6a608-7312-4de6-8b20-9c559e19e07e": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "section_title": "Talk about your brand",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "text_size": "medium"
-      }
-    },
     "d0b10332-8e4e-4cd3-954d-01895928615c": {
       "type": "rich-text",
       "custom_css": [
@@ -105,7 +95,6 @@
   },
   "order": [
     "main",
-    "55c6a608-7312-4de6-8b20-9c559e19e07e",
     "d0b10332-8e4e-4cd3-954d-01895928615c",
     "1688781187c1f01738",
     "product-recommendations",
