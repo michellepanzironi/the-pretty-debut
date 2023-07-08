@@ -68,7 +68,7 @@
     "d0b10332-8e4e-4cd3-954d-01895928615c": {
       "type": "rich-text",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "section_title": "Details & Description",
         "text": "<p>{{ product.metafields.custom.more_description | metafield_tag }}<\/p>",
         "text_size": "medium"
