@@ -27,14 +27,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "11fc902f-00aa-4b18-aadb-1edf4b90ec81": {
-          "type": "shopify:\/\/apps\/amazon-importer-spreadr-app\/blocks\/app-block\/8ec7bd1c-ef5e-4a26-b758-738a3a1b3e0b",
-          "disabled": true,
-          "settings": {
-            "spreadrbtnclass": "btn button",
-            "spreadrstyle": "margin-bottom: 10px;"
-          }
         }
       },
       "block_order": [
@@ -42,8 +34,10 @@
         "price",
         "buttons",
         "description",
-        "share",
-        "11fc902f-00aa-4b18-aadb-1edf4b90ec81"
+        "share"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
       ],
       "settings": {
         "show_quantity_selector": false,
