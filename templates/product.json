@@ -67,10 +67,13 @@
     },
     "d0b10332-8e4e-4cd3-954d-01895928615c": {
       "type": "rich-text",
+      "custom_css": [
+        "p {text-align: left;}"
+      ],
       "settings": {
         "full_width": true,
         "section_title": "Details & Description",
-        "text": "<p>{{ product.metafields.custom.more_description | metafield_tag }}<\/p>",
+        "text": "{{ product.metafields.custom.more_description | metafield_tag }}",
         "text_size": "medium"
       }
     },
