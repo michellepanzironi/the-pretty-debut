@@ -68,7 +68,7 @@
         "full_width": true,
         "section_title": "Details & Description",
         "text": "{{ product.metafields.custom.more_description | metafield_tag }}",
-        "text_size": "medium"
+        "text_size": "small"
       }
     },
     "1688781187c1f01738": {
