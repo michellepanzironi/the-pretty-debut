@@ -194,6 +194,17 @@
         "show_vendor": false,
         "show_view_all": false
       }
+    },
+    "8ecd90d7-4f72-4dec-83fc-1ae786af5d4a": {
+      "type": "collection",
+      "settings": {
+        "title": "Productivity",
+        "collection": "productivity",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -207,6 +218,7 @@
     "image-bar",
     "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18",
     "44c65d0a-f742-4f77-9e5a-69e62f704cf4",
-    "ff61ec4c-7d4f-47f5-b50e-99e6f18b8315"
+    "ff61ec4c-7d4f-47f5-b50e-99e6f18b8315",
+    "8ecd90d7-4f72-4dec-83fc-1ae786af5d4a"
   ]
 }
