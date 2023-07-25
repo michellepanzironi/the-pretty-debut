@@ -2099,6 +2099,9 @@ body {
   padding-right: 55px; }
   @media only screen and (max-width: 749px) {
     .page-width {
+      padding-left: 8px;
+      padding-right: 8px; }
+    [data-section-type="hero-section"] {
       padding-left: 0px;
       padding-right: 0px; } }
 
