@@ -53,6 +53,7 @@
     },
     "73854e5d-93c9-4299-bdcf-2a37ccdbd463": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "section_title": "Subscribe to our newsletter",
         "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
@@ -163,6 +164,7 @@
     },
     "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "title": "Product Reviews",
         "blog": "reviews",
@@ -182,6 +184,17 @@
         "show_vendor": false,
         "show_view_all": true
       }
+    },
+    "ff61ec4c-7d4f-47f5-b50e-99e6f18b8315": {
+      "type": "collection",
+      "settings": {
+        "title": "Home Improvement",
+        "collection": "home-improvement",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -194,6 +207,7 @@
     "feature-columns",
     "image-bar",
     "c476e9ed-cd2f-446d-b9e5-1f71bbaa4b18",
-    "44c65d0a-f742-4f77-9e5a-69e62f704cf4"
+    "44c65d0a-f742-4f77-9e5a-69e62f704cf4",
+    "ff61ec4c-7d4f-47f5-b50e-99e6f18b8315"
   ]
 }
