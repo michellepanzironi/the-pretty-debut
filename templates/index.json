@@ -45,7 +45,7 @@
       "settings": {
         "title": "Some Pretty Things",
         "collection": "frontpage",
-        "grid": 4,
+        "grid": 3,
         "rows": 5,
         "show_vendor": false,
         "show_view_all": false
@@ -182,7 +182,7 @@
         "grid": 2,
         "rows": 2,
         "show_vendor": false,
-        "show_view_all": true
+        "show_view_all": false
       }
     },
     "ff61ec4c-7d4f-47f5-b50e-99e6f18b8315": {
