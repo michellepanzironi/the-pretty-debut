@@ -53,10 +53,9 @@
     },
     "73854e5d-93c9-4299-bdcf-2a37ccdbd463": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "section_title": "Subscribe to our newsletter",
-        "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "subheading": "<p>Sign up to get an email when new products are added.<\/p>",
         "show_background": true
       }
     },
