@@ -181,7 +181,7 @@
         "grid": 2,
         "rows": 2,
         "show_vendor": false,
-        "show_view_all": false
+        "show_view_all": true
       }
     },
     "ff61ec4c-7d4f-47f5-b50e-99e6f18b8315": {
@@ -192,7 +192,7 @@
         "grid": 3,
         "rows": 2,
         "show_vendor": false,
-        "show_view_all": false
+        "show_view_all": true
       }
     },
     "8ecd90d7-4f72-4dec-83fc-1ae786af5d4a": {
