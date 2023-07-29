@@ -23,8 +23,8 @@
         "hero_layout": "full_width",
         "hero_size": "small",
         "text_size": "large",
-        "title": "Pretty. Useful. Curated.",
-        "text": "<p><em><strong>recommendations selected for style & function<\/strong><\/em><\/p>",
+        "title": "Pretty, Useful, Curated",
+        "text": "<p><strong>product recommendations for style & function<\/strong><\/p>",
         "button_label": "Shop The Collection",
         "button_link": "shopify:\/\/collections\/all"
       }
