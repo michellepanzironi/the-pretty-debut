@@ -72,7 +72,7 @@ $(function() {
         var products = 0;
         var asins = '';
         var appearance = '';
-        var tags = '{"comtag":"michellepanzi-20","intag":"","catag":"","uktag":"","detag":"","frtag":"","estag":"","cntag":"","ittag":"","jptag":"","mxtag":"","brtag":"","autag":"","sgtag":null,"aetag":null,"nltag":null,"satag":"","setag":null,"trtag":null,"pltag":null,"buttontext":"Buy Now on Amazon","islocalizeon":0,"isganalyticson":0,"isfacebookpixel":0}';
+        var tags = '{"comtag":"theprettystor-20","intag":"","catag":"","uktag":"","detag":"","frtag":"","estag":"","cntag":"","ittag":"","jptag":"","mxtag":"","brtag":"","autag":"","sgtag":null,"aetag":null,"nltag":null,"satag":"","setag":null,"trtag":null,"pltag":null,"buttontext":"Buy Now on Amazon","islocalizeon":0,"isganalyticson":0,"isfacebookpixel":0}';
         var isActive = '0';
         isActive = parseInt(isActive);
         if(isActive == 0){
