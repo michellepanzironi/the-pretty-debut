@@ -246,6 +246,8 @@
                         {% render 'icon-spinner' %}
                       </span>
                     </button>
+
+                    {% include 'outlink' %}
                
                     {% if section.settings.enable_payment_button %}
                       {{ form | payment_button }}
@@ -476,5 +478,3 @@
 }
 {% endschema %}
 
-<!--Agora cart button--->
-{% include 'agoraCartButton' %}
