@@ -24,7 +24,7 @@
         "hero_size": "small",
         "text_size": "large",
         "title": "pretty, useful, curated",
-        "text": "<p><strong>product recommendations for style & function<\/strong><\/p>",
+        "text": "<p><strong>products recommended for style & function<\/strong><\/p>",
         "button_label": "Shop The Collection",
         "button_link": "shopify:\/\/collections\/all"
       }
