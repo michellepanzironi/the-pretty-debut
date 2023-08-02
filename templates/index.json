@@ -22,9 +22,9 @@
         "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "small",
-        "text_size": "large",
-        "title": "Pretty, Useful, Curated",
-        "text": "<p>Products Recommended For Style & Function<\/p>",
+        "text_size": "medium",
+        "title": "PRETTY • USEFUL • CURATED",
+        "text": "<p><strong>products recommended for style & function<\/strong><\/p>",
         "button_label": "Shop The Collection",
         "button_link": "shopify:\/\/collections\/all"
       }
@@ -35,7 +35,7 @@
         "image": "shopify:\/\/shop_images\/modern-neon-sign.jpg",
         "layout": "left",
         "title": "Welcome ✨",
-        "text": "<p>I made this store to showcase my abilities in <a href=\"https:\/\/michellepanzironi.com\" target=\"_blank\" title=\"Michelle Panzironi - Shopify Web Development\">Shopify Web Development<\/a>.<\/p><p>All pages contain affiliate links. If you click through and buy something, I'll make a little money. <\/p><p>Everything featured here is something I've bought, enjoyed, and sincerely recommend.<\/p>",
+        "text": "<p>I made this store to showcase my abilities in <a href=\"https:\/\/michellepanzironi.com\" target=\"_blank\" title=\"Michelle Panzironi - Shopify Web Development\">Shopify Web Development<\/a>.<\/p><p>All pages contain affiliate links. If you click through and buy something, I'll make a little money. <\/p><p>Everything featured here is something I've bought, enjoyed, and sincerely recommend. No bullshit.<\/p>",
         "button_label": "More About Me",
         "button_link": "shopify:\/\/pages\/about"
       }
