@@ -17,6 +17,9 @@
     },
     "08a8aff6-2279-443a-970a-1bdc7aab2f8d": {
       "type": "hero",
+      "custom_css": [
+        "mega-title {letter-spacing: 0.1em;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg",
         "alignment": "center",
