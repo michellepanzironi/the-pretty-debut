@@ -21,12 +21,12 @@
         ".mega-title,.mega-subtitle {letter-spacing: 0.1em;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg",
+        "image": "shopify:\/\/shop_images\/beauty-products.jpg",
         "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "small",
         "text_size": "medium",
-        "title": "PRETTY • USEFUL • CURATED",
+        "title": "PRETTY & CURATED",
         "text": "<p>products recommended for style & function<\/p>",
         "button_label": "Shop The Collection",
         "button_link": "shopify:\/\/collections\/all"
@@ -41,6 +41,19 @@
         "text": "<p>I made this store to showcase my abilities in <a href=\"https:\/\/michellepanzironi.com\" target=\"_blank\" title=\"Michelle Panzironi - Shopify Web Development\">Shopify Web Development<\/a>.<\/p><p>All pages contain affiliate links. If you click through and buy something, I'll make a little money. <\/p><p>Everything featured here is something I've bought, enjoyed, and sincerely recommend. No bullshit.<\/p>",
         "button_label": "More About Me",
         "button_link": "shopify:\/\/pages\/about"
+      }
+    },
+    "1ce66ac8-dd7f-4cde-8b81-d8d61fa82b4f": {
+      "type": "featured-product",
+      "settings": {
+        "featured_product": "geyes-folding-keyboard-portable-foldable-wireless-bluetooth-keyboard-with-portable-pocket-size-aluminum-alloy-housing-for-iphone-ipad-tablet-laptops-and-smartphones-silver",
+        "show_quantity_selector": false,
+        "show_vendor": false,
+        "enable_payment_button": true,
+        "show_share_buttons": false,
+        "media_size": "medium",
+        "enable_image_zoom": true,
+        "enable_video_looping": false
       }
     },
     "collection": {
@@ -79,7 +92,6 @@
     },
     "feature-columns": {
       "type": "feature-columns",
-      "disabled": true,
       "blocks": {
         "feature-columns-0": {
           "type": "text_block",
@@ -108,6 +120,7 @@
         "feature-columns-0",
         "feature-columns-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "left"
@@ -115,7 +128,6 @@
     },
     "image-bar": {
       "type": "image-bar",
-      "disabled": true,
       "blocks": {
         "image-bar-1": {
           "type": "image",
@@ -160,6 +172,7 @@
         "image-bar-2",
         "d2e79cde-72e0-45ac-84ee-cda79f22d4e4"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "medium"
       }
@@ -214,6 +227,7 @@
     "hero-1",
     "08a8aff6-2279-443a-970a-1bdc7aab2f8d",
     "feature-row",
+    "1ce66ac8-dd7f-4cde-8b81-d8d61fa82b4f",
     "collection",
     "73854e5d-93c9-4299-bdcf-2a37ccdbd463",
     "hero-2",
