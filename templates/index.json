@@ -45,6 +45,7 @@
     },
     "1ce66ac8-dd7f-4cde-8b81-d8d61fa82b4f": {
       "type": "featured-product",
+      "disabled": true,
       "settings": {
         "featured_product": "geyes-folding-keyboard-portable-foldable-wireless-bluetooth-keyboard-with-portable-pocket-size-aluminum-alloy-housing-for-iphone-ipad-tablet-laptops-and-smartphones-silver",
         "show_quantity_selector": false,
